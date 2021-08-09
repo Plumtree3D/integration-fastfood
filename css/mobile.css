@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background-color: #333 ;
+
+}
+
+#logo {
+  height: auto ;
+  max-width: 80%;
+}
+
+.header {
+  height: 50vh;
+  width: 100%;
+  background-position: bottom center;
+  background-image: url("../images/cafe.jpg") ;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  float: left;
+  display: inline;
+  padding: 14px 16px;
+  text-align: center ;
+  font-size: 32px;
+  color: white;
+  transition: height 500ms,
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+p {
+  font-size: 14px;
+  color: white;
+}
+
+.fit-picture {
+  object-fit: contain;
+  width: 80%
+}
