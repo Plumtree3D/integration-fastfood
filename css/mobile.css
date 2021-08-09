@@ -1,12 +1,21 @@
 body {
   margin: 0;
   background-color: #333 ;
-
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
+
+@font-face {
+  font-family: 'Sedan Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Sedan Regular'), url('../fonts/seda/Sedan-Regular.woff') format('woff');
+  }
+  
 
 #logo {
   height: auto ;
-  max-width: 80%;
+  max-width: 100%;
 }
 
 .header {
@@ -19,30 +28,48 @@ body {
 #navbar {
   overflow: hidden;
   background-color: #333;
-  float: left;
-  display: inline;
-  padding: 14px 16px;
-  text-align: center ;
-  font-size: 32px;
-  color: white;
   transition: height 500ms,
+
 }
 
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index:3;
 }
 
-.sticky + .content {
-  padding-top: 60px;
-}
 
 p {
+  padding: 1.5em 1em 0em 1.5em;
   font-size: 14px;
   color: white;
+  font-family: 'Stardos Stencil';
 }
 
+.com {
+  position: relative;
+  left: 30vw;
+  width: 65%;
+  z-index: 2;
+}
+
+#signature {
+  text-align: end;
+}
+
+.number {
+  white-space: nowrap;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  font-family: 'Sedan Regular';
+
+}
+
+a.hover {
+  color: white;
+}
 .fit-picture {
   object-fit: contain;
   width: 80%
