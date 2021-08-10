@@ -1,3 +1,12 @@
+::-moz-selection { 
+  color: #FF391F;
+  background:none;
+}
+::selection {
+  color: #FF391F;
+  background:none;
+}
+
 body {
   margin: 0;
   background-color: #333 ;
@@ -67,10 +76,51 @@ p {
 
 }
 
-a.hover {
-  color: white;
-}
+
 .fit-picture {
   object-fit: contain;
   width: 80%
+}
+
+
+
+table {
+  margin-top: 16px;
+  color: white;
+  font-family: 'Stardos Stencil';
+}
+
+hr {
+  border: none;
+  height: 5px;
+  background-color: #FF391F;
+  width: 60%;margin-left: auto;margin-right: auto;
+  opacity: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px;
+  font-size: 30px;
+}
+a.hover {
+  color: white;
+}
+
+span {
+  transform: scale(2);
+  color: white;
 }

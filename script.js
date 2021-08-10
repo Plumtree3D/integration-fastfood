@@ -6,12 +6,9 @@ var sticky = navbar.offsetTop;
 function scrollFunction() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky");
-  } else {
-    navbar.classList.remove("sticky");
-  }
-  if (document.body.scrollTop > 450 || document.documentElement.scrollTop > 450) {
     document.getElementById("logo").src ="images/image.png"; 
   } else {
+    navbar.classList.remove("sticky");
     document.getElementById("logo").src ="images/logo.png";
   }
 }
