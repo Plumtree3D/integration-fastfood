@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
+
+@font-face {
+  font-family: 'Sedan Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Sedan Regular'), url('../fonts/sedan/Sedan-Regular.woff') format('woff');
+  }
+  
+
+
+body {
+    background-color: #303236;
+}
+
+p {
+    padding: 1.5em 1em 0em 1.5em;
+    font-size: 14px;
+    color: white;
+    font-family: 'Stardos Stencil';
+  }
+
+  #logo {
+      display: none;
+  }
+

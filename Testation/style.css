@@ -1,0 +1,153 @@
+.dessert{
+    position: absolute;
+    top: -10px;
+    left: 70px;
+    font-family: SirinStencil;
+    font-size: 36px;
+}
+.alcool{
+    position: absolute;
+    top: 36px;
+    left: 70px;
+    font-family: Rye;
+    font-size: 24px;
+}
+.americains{
+    position: absolute;
+    top: 108px;
+    left: 108px;
+    font-family: Stencil;
+    font-size: 30px;
+    transform: rotate(90deg);
+}
+.wrap{
+    position: absolute;
+    top: 60px;
+    left: 68px;
+    font-family: Onyx;
+    font-size: 36px;
+}
+.boisson{
+    position: absolute;
+    top: 59px;
+    left: 128px;
+    font-family: Six Caps;
+    font-size: 32px;
+}
+.kebab{
+    position: absolute;
+    top: 91px;
+    left: 67px;
+    font-family: Yatra One;
+    font-size: 34px;
+}
+.panini{
+    position: absolute;
+    top: 125px;
+    left: 4px;
+    font-family: Poiret One;
+    font-size: 35px;
+}
+.menu{
+    position: absolute;
+    top: 130px;
+    left: 108px;
+    font-family: Zilla Slab;
+    font-size: 26px;
+    transform: scaleX(-1);
+}
+.pizzas{
+    position: absolute;
+    top: 146px;
+    left: 5px;
+    font-family: PostNoBillsJaffnab;
+    font-size: 66px;
+}
+.salades{
+    position: absolute;
+    top: 70px;
+    left: -16px;
+    font-family: Amatic SC;
+    font-size: 34px;
+    transform: rotate(90deg);
+}
+.burgers{
+    position: absolute;
+    top: 55px;
+    left: -12px;
+    font-family: Porter Sans Block;
+    font-size: 16px;
+    transform: rotate(270deg);
+}
+
+@font-face {
+    font-family: SirinStencil;
+    src: url(font/Sirin_Stencil/SirinStencil-Regular.ttf)
+}
+@font-face {
+    font-family: Rye;
+    src: url(font/Rye/Rye-Regular.ttf)
+}
+@font-face {
+    font-family: Six Caps;
+    src: url(font/Six_Caps/SixCaps-Regular.ttf)
+}
+@font-face {
+    font-family: Yatra One;
+    src: url(font/Yatra_One/YatraOne-Regular.ttf)
+}
+@font-face {
+    font-family: Poiret One;
+    src: url(font/Poiret_One/PoiretOne-Regular.ttf)
+}
+@font-face {
+    font-family: Zilla Slab;
+    src: url(font/Zilla_Slab_Highlight/ZillaSlabHighlight-Regular.ttf)
+}
+@font-face {
+    font-family: PostNoBillsJaffnab;
+    src: url(font/post-no-bills-jaffna-cufonfonts-webfont/PostNoBillsJaffna-Regular.woff)
+}
+@font-face {
+    font-family: Amatic SC;
+    src: url(font/Amatic_SC/AmaticSC-Regular.ttf)
+}
+@font-face {
+    font-family: Porter Sans Block;
+    src: url(font/porter_sans_block/porter-sans-inline-block-webfont.ttf)
+}
+.rectangle{
+    position: absolute;
+    top:  185px;
+    left: 190px;
+    height: 222px;
+    width: 222px;
+    border: solid white 1px;
+}
+.logo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 230px;
+    width: 230px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #ff391f;
+}
+
+body{
+    background-color: #303236;
+}
+.logo-menu{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: solid 1px red; */
+    width: 420px;
+    height: 415px;
+}

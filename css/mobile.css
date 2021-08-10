@@ -7,10 +7,7 @@
   background:none;
 }
 
-body {
-  margin: 0;
-  background-color: #333 ;
-}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
 
@@ -18,7 +15,7 @@ body {
   font-family: 'Sedan Regular';
   font-style: normal;
   font-weight: normal;
-  src: local('Sedan Regular'), url('../fonts/seda/Sedan-Regular.woff') format('woff');
+  src: local('Sedan Regular'), url('../fonts/sedan/Sedan-Regular.woff') format('woff');
   }
   
 
@@ -28,16 +25,13 @@ body {
 }
 
 .header {
-  height: 50vh;
-  width: 100%;
-  background-position: bottom center;
+  height: 45vh;
+  background-position: right 25% bottom 5%;;
   background-image: url("../images/cafe.jpg") ;
 }
 
 #navbar {
-  overflow: hidden;
-  background-color: #333;
-  transition: height 500ms,
+  background-color: #303236;
 
 }
 
@@ -56,6 +50,9 @@ p {
   font-family: 'Stardos Stencil';
 }
 
+.imgdsk {
+  display: none;
+}
 .com {
   position: relative;
   left: 30vw;
@@ -123,4 +120,9 @@ a.hover {
 span {
   transform: scale(2);
   color: white;
+}
+
+body {
+  margin: 0;
+  background-color: #303236 ;
 }
