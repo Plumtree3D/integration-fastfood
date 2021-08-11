@@ -7,7 +7,9 @@
   src: local('Sedan Regular'), url('../fonts/sedan/Sedan-Regular.woff') format('woff');
   }
   
-
+.imgmbl {
+  display: none;
+}
 
 body {
     background-color: #303236;
@@ -15,7 +17,7 @@ body {
 
 p {
     padding: 1.5em 1em 0em 1.5em;
-    font-size: 14px;
+    font-size: 22px;
     color: white;
     font-family: 'Stardos Stencil';
   }
@@ -24,3 +26,19 @@ p {
       display: none;
   }
 
+.cafe {
+  max-height: 360px ;
+  object-fit: contain;
+}
+.com {
+  position: relative;
+  width: 25%;
+  transform: translateY(25%) translateX(-30%)
+}
+.terasse {
+  max-height: 366px;
+}
+
+.box {
+  display: flex;
+}
