@@ -7,6 +7,19 @@
   src: local('Sedan Regular'), url('../fonts/sedan/Sedan-Regular.woff') format('woff');
   }
   
+.number {
+  white-space: nowrap;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  font-family: 'Sedan Regular';
+}
+
+.up{
+  align-items: end;
+  justify-content: top;
+}
+
 .imgmbl {
   display: none;
 }
@@ -41,4 +54,246 @@ p {
 
 .box {
   display: flex;
+  margin-left: 25vw;
+}
+#bienvenue {
+  width: 30vw;
+}
+#signature {
+  text-align: end;
+}
+
+
+
+
+/*footer---------------------------->*/
+
+table {
+  margin-top: 16px;
+  color: white;
+  font-family: 'Stardos Stencil';
+}
+
+hr {
+  border: none;
+  background-color: #FF391F;
+  width: 60%;margin-left: auto;margin-right: auto;
+  opacity: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+footer p {
+font-size: 16px ;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding: 0px 22px 16px 22px;
+  font-size: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF391F
+}
+
+#f:hover{
+  color:#4267B2;
+}
+#t:hover{
+  color:#1DA1F2;
+}
+#m:hover{
+  color:#006AFF;
+}
+#s:hover{
+  color: limegreen;
+}
+span {
+  transform: scale(2);
+  color: white;
+}
+
+.mentions {
+  letter-spacing:1px;
+  font-family: 'Teko', sans-serif;
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  background-color: #303236 ;
+}
+
+.footer-elements {
+  padding-top: 12px;
+
+}
+
+.share {
+  font-size: 22px
+}
+
+
+/* bordel */
+
+
+
+
+
+.dessert{
+  position: absolute;
+  top: -10px;
+  left: 70px;
+  font-family: SirinStencil;
+  font-size: 36px;
+}
+.alcool{
+  position: absolute;
+  top: 36px;
+  left: 70px;
+  font-family: Rye;
+  font-size: 24px;
+}
+.americains{
+  position: absolute;
+  top: 106px;
+  left: 110px;
+  font-family: Stencil;
+  font-size: 30px;
+  transform: rotate(90deg);
+}
+.wrap{
+  position: absolute;
+  top: 58px;
+  left: 68px;
+  font-family: Onyx;
+  font-size: 36px;
+}
+.boisson{
+  position: absolute;
+  top: 61px;
+  left: 128px;
+  font-family: Six Caps;
+  font-size: 32px;
+}
+.kebab{
+  position: absolute;
+  top: 91px;
+  left: 67px;
+  font-family: Yatra One;
+  font-size: 34px;
+}
+.panini{
+  position: absolute;
+  top: 125px;
+  left: 4px;
+  font-family: Poiret One;
+  font-size: 35px;
+}
+.menu{
+  position: absolute;
+  top: 130px;
+  left: 108px;
+  font-family: Zilla Slab;
+  font-size: 26px;
+  transform: scaleX(-1);
+}
+.pizzas{
+  position: absolute;
+  top: 146px;
+  left: 5px;
+  font-family: PostNoBillsJaffnab;
+  font-size: 66px;
+}
+.salades{
+  position: absolute;
+  top: 70px;
+  left: -16px;
+  font-family: Amatic SC;
+  font-size: 34px;
+  transform: rotate(90deg);
+}
+.burgers{
+  position: absolute;
+  top: 55px;
+  left: -12px;
+  font-family: Porter Sans Block;
+  font-size: 16px;
+  transform: rotate(270deg);
+}
+
+@font-face {
+  font-family: SirinStencil;
+  src: url(../fonts/Sirin_Stencil/sirinstencil-regular-webfont.woff)
+}
+@font-face {
+  font-family: Rye;
+  src: url(../fonts/Rye/rye-regular-webfont.woff)
+}
+@font-face {
+  font-family: Six Caps;
+  src: url(../fonts/Six_Caps/sixcaps-regular-webfont.woff)
+}
+@font-face {
+  font-family: Yatra One;
+  src: url(../fonts/Yatra_One/yatraone-regular-webfont.woff)
+}
+@font-face {
+  font-family: Poiret One;
+  src: url(../fonts/Poiret_One/poiretone-regular-webfont.woff)
+}
+@font-face {
+  font-family: Zilla Slab;
+  src: url(../fonts/Zilla_Slab_Highlight/zillaslabhighlight-bold-webfont.woff)
+}
+@font-face {
+  font-family: PostNoBillsJaffnab;
+  src: url(../fonts/post-no-bills-jaffna-cufonfonts-webfont/PostNoBillsJaffna-Regular.woff)
+}
+@font-face {
+  font-family: Amatic SC;
+  src: url(../fonts/Amatic_SC/amaticsc-regular-webfont.woff)
+}
+@font-face {
+  font-family: Porter Sans Block;
+  src: url(../fonts/porter_sans_block/porter-sans-inline-block-webfont.woff)
+}
+.rectangle{
+  position: absolute;
+  top:  185px;
+  left: 190px;
+  height: 222px;
+  width: 222px;
+  border: solid white 1px;
+}
+.logo{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 230px;
+  width: 230px;
+}
+.logo-menu{
+  position: static;
+  transform: translateX(10%) translateY(5%);
+  display: block;
+  width: 420px;
+  height: 415px;
 }
