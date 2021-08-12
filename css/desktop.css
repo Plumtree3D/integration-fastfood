@@ -304,10 +304,10 @@ color: white;
 .menuderoulant{
 
 position: fixed;
-top: 0;
-width: 33vh;
+top: 10%;
+width: 30vh;
 background: #424242b9;
-height: 100%;
+height: 80%;
 box-shadow: 5px 5px 0px rgba(255, 57, 31, 0.918);
 padding-top: 2.5vh;
 
@@ -315,7 +315,7 @@ padding-top: 2.5vh;
 }
 
 .liensmenuderoulant{
-font-size: 4vh;
+font-size: 3vh;
 padding-left: 10%;
 top: 0;
 padding-top: 1vh;
