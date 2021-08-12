@@ -7,6 +7,15 @@
   src: local('Sedan Regular'), url('../fonts/sedan/Sedan-Regular.woff') format('woff');
   }
   
+  ::-moz-selection { 
+    color: #FF391F;
+    background:none;
+  }
+  ::selection {
+    color: #FF391F;
+    background:none;
+  }
+
 .number {
   white-space: nowrap;
   font-size: 1.5rem;
@@ -42,6 +51,7 @@ p {
 .cafe {
   max-height: 360px ;
   object-fit: contain;
+  padding-left: 5vw;
 }
 .com {
   position: relative;
@@ -140,9 +150,14 @@ body {
   margin: 0;
   background-color: #303236 ;
 }
-
+.parent {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 8vh;
+}
 .footer-elements {
   padding-top: 12px;
+  width: 50%;
 
 }
 
@@ -150,11 +165,14 @@ body {
   font-size: 22px
 }
 
+.map {
+  margin-bottom: 5vh;
+}
+
+
+
 
 /* bordel */
-
-
-
 
 
 .dessert{
@@ -292,8 +310,9 @@ body {
 }
 .logo-menu{
   position: static;
-  transform: translateX(10%) translateY(5%);
+  transform: translateX(0%);
   display: block;
   width: 420px;
   height: 415px;
 }
+
