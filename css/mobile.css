@@ -27,7 +27,8 @@
 .header {
   height: 45vh;
   background-position: right 25% bottom 5%;;
-  background-image: url("../images/cafe.jpg");
+  background-image: url("../images/caferez.jpg");
+  object-fit: fill;
 }
 
 #navbar {
